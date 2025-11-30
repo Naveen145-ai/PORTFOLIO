@@ -384,6 +384,124 @@ export default function HomePage() {
           ))}
         </div>
       </div>
+
+      {/* CONTACT SECTION */}
+<div
+  id="contact"
+  style={{
+    padding: "60px 40px",
+    background: "black",
+    color: "white",
+    display: "flex",
+    justifyContent: "space-between",
+    gap: "40px",
+  }}
+>
+
+  {/* LEFT SIDE */}
+  <div style={{ width: "45%" }}>
+    <h1
+      style={{
+        fontSize: "50px",
+        fontWeight: "bold",
+        background: "linear-gradient(90deg, #ff00d4, #ffa600)",
+        WebkitBackgroundClip: "text",
+        color: "transparent",
+      }}
+    >
+      Let’s talk
+    </h1>
+
+    <p style={{ marginTop: "10px", color: "#ccc", fontSize: "18px" }}>
+      I'm currently available to take on new projects, so feel free to send me a
+      message about anything that you want me to work on. You can contact anytime.
+    </p>
+
+    <div style={{ marginTop: "25px" }}>
+      {/* EMAIL */}
+      <div style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
+        <span style={{ fontSize: "24px", marginRight: "10px" }}>📧</span>
+        <p style={{ fontSize: "18px" }}>naveensrinivas145@gmail.com</p>
+      </div>
+
+      {/* PHONE */}
+      <div style={{ display: "flex", alignItems: "center", marginBottom: "15px" }}>
+        <span style={{ fontSize: "24px", marginRight: "10px" }}>📞</span>
+        <p style={{ fontSize: "18px" }}>+772–825–524</p>
+      </div>
+
+      {/* LOCATION */}
+      <div style={{ display: "flex", alignItems: "center" }}>
+        <span style={{ fontSize: "24px", marginRight: "10px" }}>📍</span>
+        <p style={{ fontSize: "18px" }}>CA, United States</p>
+      </div>
     </div>
+  </div>
+
+  {/* RIGHT SIDE – FORM */}
+  <div style={{ width: "50%" }}>
+    <label style={{ fontSize: "18px" }}>Your Name</label>
+    <input
+      type="text"
+      placeholder="Enter your name"
+      style={{
+        width: "100%",
+        padding: "15px",
+        borderRadius: "8px",
+        background: "#222",
+        border: "none",
+        marginBottom: "20px",
+        color: "white",
+      }}
+    />
+
+    <label style={{ fontSize: "18px" }}>Your Email</label>
+    <input
+      type="email"
+      placeholder="Enter your email"
+      style={{
+        width: "100%",
+        padding: "15px",
+        borderRadius: "8px",
+        background: "#222",
+        border: "none",
+        marginBottom: "20px",
+        color: "white",
+      }}
+    />
+
+    <label style={{ fontSize: "18px" }}>Write your message here</label>
+    <textarea
+      placeholder="Enter your message"
+      style={{
+        width: "100%",
+        padding: "15px",
+        borderRadius: "8px",
+        background: "#222",
+        border: "none",
+        minHeight: "180px",
+        color: "white",
+      }}
+    ></textarea>
+
+    <button
+      style={{
+        marginTop: "25px",
+        padding: "12px 25px",
+        fontSize: "18px",
+        borderRadius: "25px",
+        border: "none",
+        background: "linear-gradient(90deg, #ff00d4, #ffa600)",
+        color: "white",
+        cursor: "pointer",
+      }}
+    >
+      Submit now
+    </button>
+  </div>
+</div>
+
+    </div>
+    
   );
 }
